@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS total_first_class_survivors FROM titanic WHERE Survived = 1 AND Pclass = 1;

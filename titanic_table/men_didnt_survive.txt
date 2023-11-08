@@ -1,0 +1,1 @@
+SELECT AVG(Age) AS avg_age_not_survived_men FROM titanic WHERE Survived = 0 AND Sex = 'male';
